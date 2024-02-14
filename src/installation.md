@@ -28,9 +28,9 @@ scoop install pace
 ``` -->
 
 You can download the latest stable release versions of pace from the
-[pace release page](https://github.com/pace-rs/pace/releases/latest).
-These builds are considered stable and releases are made regularly in a
-controlled manner.
+[pace release page](https://github.com/pace-rs/pace/releases/latest). These
+builds are considered stable and releases are made regularly in a controlled
+manner.
 
 There's both pre-compiled binaries for different platforms as well as the source
 code available for download. Just download and run the one matching your system.

@@ -1,6 +1,6 @@
 # Feature Comparison
 
-<!-- TODO 
+<!-- TODO
 
 - comparison with bartib
 - comparison with timetracking

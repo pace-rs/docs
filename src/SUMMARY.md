@@ -7,5 +7,5 @@
 - [Getting Started](./getting_started.md)
 
 <!-- - [FAQ](./FAQ.md) -->
-  <!-- - [Feature Comparison](./feature_comparison.md) -->
+<!-- - [Feature Comparison](./feature_comparison.md) -->
 <!-- - [Usage](./usage.md) -->
