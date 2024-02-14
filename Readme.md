@@ -2,12 +2,12 @@
 <img src="https://raw.githubusercontent.com/pace-rs/assets/main/logos/readme_header_docs.png" height="400" />
 </p>
 <p align="center">
-<b>pace user documentation</b>
+<b>user documentation</b>
 </p>
 
 <p align="center">
 <a href="https://crates.io/crates/pace-rs"><img src="https://img.shields.io/crates/v/pace-rs.svg" /></a>
-<a href="https://raw.githubusercontent.com/pace-rs/assets/main/LICENSE"><img src="https://img.shields.io/badge/license-MPL2.0-blue.svg" /></a>
+<a href="https://raw.githubusercontent.com/pace-rs/docs/main/LICENSE"><img src="https://img.shields.io/badge/license-MPL2.0-blue.svg" /></a>
 <a href="https://crates.io/crates/pace-rs"><img src="https://img.shields.io/crates/d/pace-rs.svg" /></a>
 <p>
 
