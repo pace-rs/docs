@@ -26,7 +26,8 @@ You can ask questions in the
 [Discussions](https://github.com/pace-rs/discussions) or have a look at the
 [FAQ](./FAQ.md).
 
-| Contact       | Where?                                                             |
-| ------------- | ------------------------------------------------------------------ |
-| Issue Tracker | [GitHub Issues](https://github.com/pace-rs/pace/issues/new/choose) |
-| Discussions   | [GitHub Discussions](https://github.com/pace-rs/discussions)       |
+| Contact       | Where?                                                                                                          |
+| ------------- | --------------------------------------------------------------------------------------------------------------- |
+| Issue Tracker | [GitHub Issues](https://github.com/pace-rs/pace/issues/new/choose)                                              |
+| Discord       | [![Discord](https://dcbadge.vercel.app/api/server/RKSWrAcYdG?style=flat-square)](https://discord.gg/RKSWrAcYdG) |
+| Discussions   | [GitHub Discussions](https://github.com/pace-rs/discussions)                                                    |
