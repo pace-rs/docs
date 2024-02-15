@@ -13,7 +13,7 @@
 
 An open source user documentation book for
 [pace](https://github.com/pace-rs/pace) that you can read
-[here](https://pace-rs.github.io/docs).
+[here](https://pace.cli.rs/docs).
 
 ## Installation
 

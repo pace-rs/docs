@@ -59,7 +59,7 @@ describe your suggestion in detail.
 ## Developer's documentation
 
 For more information about developing around `pace`, see the
-[developer's documentation](https://pace-rs.github.io/dev-docs/).
+[developer's documentation](https://pace.cli.rs/dev-docs/).
 
 ## License
 
