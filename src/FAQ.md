@@ -20,4 +20,5 @@ If you found a bug in pace, please report it in our
 
 ### Contributing
 
-If you want to contribute to pace, please refer to our [Contributing Guide](./contributing_to_pace.md).
+If you want to contribute to pace, please refer to our
+[Contributing Guide](./contributing_to_pace.md).
