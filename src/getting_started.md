@@ -133,7 +133,7 @@ specify a starting time with the `--at` flag, your time should be in the format
 `HH:MM`. If you don't specify a time, pace will use the current time. Using a
 different starting time than the current time is useful if you forgot to start
 the activity at the right time, but you want to make sure the time is logged
-correctly.
+correctly. You cannot start an activity with a starting time in the future.
 
 #### Switching Activities
 
@@ -155,7 +155,8 @@ pace end
 `--at` flag, your time should be in the format `HH:MM`. If you don't specify a
 time, Pace will use the current time. Using a different ending time than the
 current time is useful if you forgot to end the activity at the right time, but
-you want to make sure the time is logged correctly.
+you want to make sure the time is logged correctly. You cannot end an activity
+with an ending time in the future.
 
 ### Pausing an Activity
 
@@ -175,7 +176,8 @@ pace resume
 the `--at` flag, your time should be in the format `HH:MM`. If you don't specify
 a time, Pace will use the current time. Using a different resuming time than the
 current time is useful if you forgot to resume the activity at the right time,
-but you want to make sure the time is logged correctly.
+but you want to make sure the time is logged correctly. You cannot resume an
+activity with a resume time in the future.
 
 ### Showing the Current Activity
 
