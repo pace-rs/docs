@@ -14,8 +14,6 @@
   - [Listing Activities](#listing-activities)
     - [Listing resumable activities](#listing-resumable-activities)
   - [Adjusting Activities](#adjusting-activities)
-  - [Showing Settings](#showing-settings)
-  - [Manually Setting up the Configuration File](#manually-setting-up-the-configuration-file)
 
 <!-- /TOC -->
 
@@ -171,43 +169,3 @@ with the `--start` flag, your time should be in the format `HH:MM`. If you don't
 specify a time, the time will not be changed. Using a different starting time
 than the current time is useful if you forgot to start the activity at the right
 time, but you want to make sure the time is logged correctly.
-
-### Showing Settings
-
-You can show the current settings with the `pace setup show` command. This will
-show you the currently loaded settings and the location of the activity file.
-
-### Manually Setting up the Configuration File
-
-The configuration file is a TOML file. This means it's a text file that contains
-key-value pairs. You can use this file to adjust the settings of pace to your
-liking. Here's an example of a configuration file:
-
-```toml
-[general]
-path = "C:\\Users\\YourName\\pace\\activities.pace.toml"
-storage-kind = "file"
-category-separator = "::"
-default-priority = "medium"
-most_recent_count = 12
-```
-
-If you want to use a different location for the config file, you can specify the
-location with the `--config` flag. For example:
-
-```shell
-pace --config "C:\\Users\\YourName\\pace\\config.toml" begin "Creating new assets" --category "MyProject::MyAreaOfFocus" --tags "design,assets"
-```
-
-<!-- TODO:
-### Opening The Configuration File
-
-You can open the configuration file with the following command:
-
-```shell
-pace setup compose
-```
-
-This will open the configuration file in your default text editor. You can use
-this file to adjust the settings of pace to your liking.
--->
