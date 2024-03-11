@@ -59,5 +59,5 @@ cargo install --git https://github.com/pace-rs/pace.git pace-rs
 ### crates.io
 
 ```bash
-cargo install pace-rs
+cargo install pace-rs --locked
 ```
