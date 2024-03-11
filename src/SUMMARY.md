@@ -14,7 +14,7 @@
   <!-- - [Importing and Exporting Data](./data_management/importing_and_exporting_data.md) -->
 - [Time Tracking Concepts](./time_tracking_concepts/intro.md)
   - [Activity, Intermission, Session](./time_tracking_concepts/activity_intermission_session.md)
-  <!-- - [Activity Status and Lifecycle](./time_tracking_concepts/activity_status_and_lifecycle.md) -->
+  - [Activity Status and Lifecycle](./time_tracking_concepts/activity_status_and_lifecycle.md)
   <!-- - [Pomodoro Technique Integration](./time_tracking_concepts/pomodoro_technique_integration.md) -->
 
 <!-- - [Advanced Features](./advanced_features/intro.md) -->
