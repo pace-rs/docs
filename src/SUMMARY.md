@@ -29,8 +29,8 @@
   - [Web API for Integration]()
   - [Plugin System]()
 - [Best Practices and Tips](./best_practices_and_tips/intro.md)
-  - [Time Zone Handling](./best_practices_and_tips/time_zone_handling.md)
-  - [Activity Organization Strategies](./best_practices_and_tips/activity_organization_strategies.md)
-  - [Data Backup and Recovery](./best_practices_and_tips/data_backup_and_recovery.md)
+  - [Time Zone Handling]()
+  - [Activity Organization Strategies]()
+  - [Data Backup and Recovery]()
 
 <!-- - [Feature Comparison](./feature_comparison.md) -->
