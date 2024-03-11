@@ -53,7 +53,7 @@ code available for download.
 unstable.
 
 ```bash
-cargo install --git https://github.com/pace-rs/pace.git pace-rs
+cargo install --git https://github.com/pace-rs/pace.git pace-rs --locked
 ```
 
 ### crates.io
