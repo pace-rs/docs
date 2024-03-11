@@ -18,7 +18,7 @@ An open source user documentation book for
 ## Installation
 
 This book is built with [mdbook](https://rust-lang.github.io/mdBook/). You can
-install it by running `cargo install mdbook`.
+install it by running `cargo install mdbook --locked`.
 
 ### Additional dependencies
 
