@@ -28,5 +28,5 @@ level = 0
 # Redirects in the form of "old-path" = "new-path", where the new path
 # is relative to the old path.
 "getting_started.html" = "user_guide/getting_started.html"
-"faq.html" = "user_guide/faq.html"
+"FAQ.html" = "user_guide/FAQ.html"
 "installation.html" = "user_guide/installation.html"
