@@ -28,16 +28,22 @@ jobs:
       MDBOOK_VERSION: 0.4.37
     steps:
       - uses: actions/checkout@v4
-      - uses: taiki-e/install-action@v2
-        with:
-          tool: mdbook,mdbook-last-changed
+
+      - name: Install mdbook
+        uses: ./.github/workflows/install-mdbook
+
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v4
         with:
           enablement: true
-      - name: Build with mdBook
-        run: mdbook build
+
+      - name: Build course
+        run: |
+          mdbook build -d book
+          mv book/html/* book/pandoc/pdf/*.pdf book/
+          rm -r book/html book/pandoc
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
