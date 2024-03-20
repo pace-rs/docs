@@ -21,7 +21,7 @@
   - [Activity Status and Lifecycle](./time_tracking_concepts/activity_status_and_lifecycle.md)
   - [Pomodoro Technique Integration]()
 - [Advanced Features](./advanced_features/intro.md)
-  - [Review Generation](./advanced_features/review_generation.md)
+  - [Reflections Generation](./advanced_features/reflections_generation.md)
   - [Billing and Invoicing]()
   - [Team Collaboration]()
 - [Integration and Extensibility](./integration_and_extensibility/intro.md)

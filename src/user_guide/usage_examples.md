@@ -100,33 +100,33 @@ you the current activity, if there is one.
 
 ### Gain Insights with Summaries
 
-You can generate summaries of your activities with the `pace review` command. It
-will show you a summary of your activities for the current day, week, or month.
-You can also specify a custom date range to review. If you want to see a summary
-of your activities for the current day, you can just run:
+You can generate summaries of your activities with the `pace reflect` command.
+It will show you a summary of your activities for the current day, week, or
+month. You can also specify a custom date range to reflect. If you want to see a
+summary of your activities for the current day, you can just run:
 
 ```shell
-pace review
+pace reflect
 ```
 
 It defaults to the current day. If you want to see a summary of your activities
 for the current week, you can run:
 
 ```shell
-pace review --current-week
+pace reflect --current-week
 ```
 
 If you want to see a summary of your activities for a specific date, you can
 run:
 
 ```shell
-pace review --date "2021-12-31"
+pace reflect --date "2021-12-31"
 ```
 
-While you can also specify a date range to review:
+While you can also specify a date range to reflect upon:
 
 ```shell
-pace review --from "2021-12-01" --to "2021-12-23"
+pace reflect --from "2021-12-01" --to "2021-12-23"
 ```
 
 If you only specify the `--from` flag, pace will show you a summary of your

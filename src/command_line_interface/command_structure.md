@@ -19,7 +19,7 @@ pace [GLOBAL_OPTIONS] <COMMAND> [OPTIONS] [ARGUMENTS]
 ```
 
 - `<COMMAND>`: The primary action or task to be performed, such as `begin`,
-  `end`, `hold`, `resume` or `review`.
+  `end`, `hold`, `resume` or `reflect`.
 
 - `[GLOBAL_OPTIONS]`/`[OPTIONS]`: Optional flags or settings that modify the
   behavior of the command. Options are typically preceded by a hyphen (`-`) or
@@ -32,7 +32,7 @@ pace [GLOBAL_OPTIONS] <COMMAND> [OPTIONS] [ARGUMENTS]
 
 The Pace CLI organizes its functionality into subcommands, each serving a
 specific purpose or task. For example, the `begin` command is used to start
-tracking time for an activity, while the `review` command provides insights on
+tracking time for an activity, while the `reflect` command provides insights on
 your activities.
 
 For a complete list of available commands, you can run:

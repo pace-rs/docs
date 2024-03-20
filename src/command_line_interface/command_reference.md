@@ -10,7 +10,7 @@
   - [hold](#hold)
   - [now](#now)
   - [resume](#resume)
-  - [review](#review)
+  - [reflect](#reflect)
   - [setup](#setup)
   - [docs](#docs)
   - [help](#help)
@@ -18,7 +18,7 @@
   - [Only available on `adjust`](#only-available-on-adjust)
   - [`adjust`, `begin`, `end`, `hold`, `resume`](#adjust-begin-end-hold-resume)
   - [Only available on `resume`](#only-available-on-resume)
-  - [Only available on `review`](#only-available-on-review)
+  - [Only available on `reflect`](#only-available-on-reflect)
   - [Only available on `docs`](#only-available-on-docs)
 - [Usage Syntax](#usage-syntax)
   - [`adjust`](#adjust-1)
@@ -27,7 +27,7 @@
   - [`hold`](#hold-1)
   - [`now`](#now-1)
   - [`resume`](#resume-1)
-  - [`review`](#review-1)
+  - [`reflect`](#reflect-1)
   - [`setup`](#setup-1)
   - [`docs`](#docs-1)
   - [`help`](#help-1)
@@ -44,7 +44,7 @@ Commands:
   hold    ⏸️ Pauses the time tracking for the most recent active activity [aliases: h]
   now     ⏲️ Shows you at a glance what you're currently tracking [aliases: n]
   resume  ⏯️ Resumes a previously paused activity, allowing you to continue where you left off [aliases: r]
-  review  📈 Get sophisticated insights on your activities [aliases: rev]
+  reflect  📈 Get sophisticated insights on your activities [aliases: rev]
   setup   🛠️ Set up a pace configuration, a new project, or generate shell completions [aliases: s]
   docs    📚 Open the online documentation for pace [aliases: d]
   help    Print this message or the help of the given subcommand(s)
@@ -95,14 +95,14 @@ where you left off.
 
 **Usage:** `pace resume` or `pace resume --list`
 
-### review
+### reflect
 
 Gain insight in your activities and tasks. You can specify the time frame for
 daily, weekly, or monthly insights.
 
-**Usage:** `pace review --last-week` or
-`pace review --from 2024-02-10 --to 2024-03-06` or
-`pace review --today -o json -e ./data/data.json`
+**Usage:** `pace reflect --last-week` or
+`pace reflect --from 2024-02-10 --to 2024-03-06` or
+`pace reflect --today -o json -e ./data/data.json`
 
 ### setup
 
@@ -168,7 +168,7 @@ Prints a help message or the help of the given subcommand(s).
 
   **Usage:** `--list`
 
-### Only available on `review`
+### Only available on `reflect`
 
 ```console
 Options:
@@ -176,27 +176,27 @@ Options:
   -c, --category <Category>            Filter by category name, wildcard supported
       --case-sensitive                 Case sensitive category filter
   -o, --output-format <Output Format>  Specify output format (e.g., text, markdown, pdf) [possible values: console, json, html, csv, markdown, plain-text]
-  -e, --export-file <Export File>      Export the review report to a specified file
+  -e, --export-file <Export File>      Export the reflection report to a specified file
   -h, --help                           Print help
   -V, --version                        Print version
 
 Flags for specifying time periods:
-      --today          Show the review for the current day
-      --yesterday      Show the review for the previous day
-      --current-week   Show the review for the current week
-      --last-week      Show the review for the previous week
-      --current-month  Show the review for the current month
-      --last-month     Show the review for the previous month
+      --today          Show the reflection for the current day
+      --yesterday      Show the reflection for the previous day
+      --current-week   Show the reflection for the current week
+      --last-week      Show the reflection for the previous week
+      --current-month  Show the reflection for the current month
+      --last-month     Show the reflection for the previous month
 
 Date flags for specifying custom date ranges or specific dates:
-      --date <Specific Date>  Show the review for a specific date, mutually exclusive with `from` and `to`. Format: YYYY-MM-DD
-      --from <Start Date>     Start date for the review period. Format: YYYY-MM-DD
-      --to <End Date>         End date for the review period. Format: YYYY-MM-DD
+      --date <Specific Date>  Show the reflection for a specific date, mutually exclusive with `from` and `to`. Format: YYYY-MM-DD
+      --from <Start Date>     Start date for the reflection period. Format: YYYY-MM-DD
+      --to <End Date>         End date for the reflection period. Format: YYYY-MM-DD
 
 Expensive flags for detailed insights:
-      --detailed         Include detailed time logs in the review
+      --detailed         Include detailed time logs in the reflection
       --comparative      Enable comparative insights against a previous period
-      --recommendations  Enable personalized recommendations based on review data
+      --recommendations  Enable personalized recommendations based on reflection data
 ```
 
 ### Only available on `docs`
@@ -247,10 +247,10 @@ Usage: pace now
 Usage: pace resume [OPTIONS]
 ```
 
-### `review`
+### `reflect`
 
 ```console
-pace review [OPTIONS]
+pace reflect [OPTIONS]
 ```
 
 ### `setup`
