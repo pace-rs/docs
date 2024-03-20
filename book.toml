@@ -30,7 +30,7 @@ level = 0
 "getting_started.html" = "user_guide/getting_started.html"
 "FAQ.html" = "user_guide/FAQ.html"
 "installation.html" = "user_guide/installation.html"
-"advanced_features/review-generation.html" = "advanced_features/reflections_generation.html"
+"advanced_features/review-generation.html" = "reflections_generation.html"
 
 [output.pandoc]
 optional = true
