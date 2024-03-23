@@ -169,3 +169,17 @@ with the `--start` flag, your time should be in the format `HH:MM`. If you don't
 specify a time, the time will not be changed. Using a different starting time
 than the current time is useful if you forgot to start the activity at the right
 time, but you want to make sure the time is logged correctly.
+
+### Setting the Time Zone
+
+You can specify a custom time zone or time zone offset when logging an activity
+using the `--time-zone` or `--time-zone-offset` flags. This is useful when you
+want to track activities in a different time zone or when your system time zone
+differs from the time zone you want to use for tracking.
+
+The time zone should be in the format `Region/City`, for example,
+`America/New_York` or `Europe/Berlin`. The time zone offset should be in the
+format `±HHMM`, for example, `+0530` or `-0800`. The default time zone is the
+system time zone. You can use the `pace settings set time-zone` command to set
+the default time zone. Or re-run `pace setup config` to set the default time
+zone during the initial setup.

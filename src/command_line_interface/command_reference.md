@@ -11,6 +11,7 @@
   - [now](#now)
   - [resume](#resume)
   - [reflect](#reflect)
+  - [settings](#settings)
   - [setup](#setup)
   - [docs](#docs)
   - [help](#help)
@@ -38,16 +39,17 @@
 
 ```console
 Commands:
-  adjust  📝 Adjust the details of an activity, such as its category, description, or tags [aliases: a]
-  begin   ⌚ Starts tracking time for an activity [aliases: b]
-  end     ⏹️ Stops time tracking for the most recent or all activities [aliases: e]
-  hold    ⏸️ Pauses the time tracking for the most recent active activity [aliases: h]
-  now     ⏲️ Shows you at a glance what you're currently tracking [aliases: n]
-  resume  ⏯️ Resumes a previously paused activity, allowing you to continue where you left off [aliases: r]
-  reflect  📈 Get sophisticated insights on your activities [aliases: rev]
-  setup   🛠️ Set up a pace configuration, a new project, or generate shell completions [aliases: s]
-  docs    📚 Open the online documentation for pace [aliases: d]
-  help    Print this message or the help of the given subcommand(s)
+  adjust    📝 Adjust the details of an activity, such as its category, description, or tags [aliases: a]
+  begin     ⌚ Starts tracking time for an activity [aliases: b]
+  end       ⏹️ Stops time tracking for the most recent or all activities [aliases: e]
+  hold      ⏸️ Pauses the time tracking for the most recent active activity [aliases: h]
+  now       ⏲️ Shows you at a glance what you're currently tracking [aliases: n]
+  resume    ⏯️ Resumes a previously paused activity, allowing you to continue where you left off [aliases: r]
+  reflect   📈 Get sophisticated insights on your activities [aliases: rev]
+  setup     🛠️ Set up a pace configuration, a new project, or generate shell completions [aliases: s]
+  settings  ⚙️ Changes various application settings, including Pomodoro lengths, time zone, and reflection format [aliases: s]
+  docs      📚 Open the online documentation for pace [aliases: d]
+  help      Print this message or the help of the given subcommand(s)
 ```
 
 ## Command Descriptions
@@ -113,6 +115,14 @@ completions for your shell of choice. And generate a project configuration file.
 
 **Usage:** `pace setup config` or `pace setup completions`
 
+### settings
+
+Change various application settings, including Pomodoro lengths, time zone, and
+reflection format. This is useful for customizing pace to your preferences. You
+can also get the current settings for the application, e.g. for automation.
+
+**Usage:** `pace settings set time-zone` or `pace settings get time-zone`
+
 ### docs
 
 Opens the documentations for users, developers, and the configuration file in
@@ -127,6 +137,21 @@ Prints a help message or the help of the given subcommand(s).
 **Usage:** `pace help` or `pace help begin` or `pace help adjust`
 
 ## Options and Flags
+
+### Only available on `begin`, `end`, `hold`, `resume`, `adjust`
+
+- **--time-zone**: Specifies the time zone for the activity.
+
+  **Usage:** `--time-zone "America/New_York"` or `--time-zone "Europe/Berlin"`
+
+- **--time-zone-offset**: Specifies the time zone offset for the activity. The
+  offset should be in the format `±HHMM`.
+
+  **Usage:** `--time-zone-offset="+0530"` or `--time-zone-offset="-0800"`
+
+  **Note:** This flag is mutually exclusive with `--time-zone`. If both are
+  provided, `--time-zone` will take precedence. You also need to use the
+  `--time-zone-offset` flag with the equal sign.
 
 ### Only available on `adjust`
 

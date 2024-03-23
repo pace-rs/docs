@@ -81,3 +81,8 @@ command. They can take various formats, such as:
   For example, `"important"` or `"urgent"`. Where applicable, tags can be
   specified using the `--tags/-t` option. They can be specified as a
   comma-separated list, such as `"important,urgent"`.
+
+- **Time zone**: A time zone to be used for time calculations. For example,
+  `"America/New_York"` or `"UTC"`. Time zones can be specified using the
+  `--time-zone` option. Or you can specify the time zone offset as '±HHMM' with
+  the `--time-zone-offset/-Z` option, e.g., `--time-zone-offset="+0530"`.
