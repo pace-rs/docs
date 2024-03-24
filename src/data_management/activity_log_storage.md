@@ -18,8 +18,8 @@ intermission:
 ```toml
 [01HQR3QRXEYK51T6N0D85G5668]
 description = "My Task"
-begin = "2024-02-28T16:01:13"
-end = "2024-02-28T16:02:40"
+begin = "2024-02-28T16:01:13+01:00"
+end = "2024-02-28T16:02:40+01:00"
 duration = 87
 kind = "activity"
 tags = ["test", "my", "lawn"]
@@ -27,8 +27,8 @@ status = "ended"
 
 [01HQR3RTH6XJKMW4PFD2XFNK71]
 description = "My Task"
-begin = "2024-02-28T16:01:48"
-end = "2024-02-28T16:02:17"
+begin = "2024-02-28T16:01:48+01:00"
+end = "2024-02-28T16:02:17+01:00"
 duration = 29
 kind = "intermission"
 parent-id = "01HQR3QRXEYK51T6N0D85G5668"
